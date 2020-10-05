@@ -26,5 +26,10 @@ namespace ASP.NET.Email.Controllers
 
             return View();
         }
+
+        public ActionResult SendEmail()
+        {
+            return View();
+        }
     }
 }
