@@ -17,7 +17,7 @@ namespace ASP.NET.Email.Controllers
         [HttpPost]
         public ActionResult SendEmail(string UserMail)
         {
-           
+            //The server response was: 5.7.0 Authentication Required (https://g.co/allowaccess)
             string subject = "titulo do email";
             string body = "corpo do email";
             WebMail.Send(UserMail, subject, body, null, null, null, true, null, null, null, null, null, null);
